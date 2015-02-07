@@ -1,0 +1,5 @@
+<launch>
+    <arg name="model" default="$(find test_mesh_urdf_rviz)/urdf/test.urdf" />
+    <param name="robot_description" command="cat '$(arg model)'" />
+
+</launch>
